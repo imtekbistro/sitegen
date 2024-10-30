@@ -51,6 +51,9 @@ class ParentNode(HTMLNode):
         result = f'<{self.tag} {self.props_to_html().strip()}>{"".join(full_string)}</{self.tag}>' if self.props else f'<{self.tag}>{"".join(full_string)}</{self.tag}>'
         #print(f"Generated HTML: {result}")  # Debug print
         return result
+    
+
+
             
     
 
